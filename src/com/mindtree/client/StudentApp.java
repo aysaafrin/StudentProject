@@ -6,9 +6,10 @@ import com.mindtree.service.StudentAppService;
 
 public class StudentApp {
 	static Scanner scan = new Scanner(System.in);
-
+ 
 	public static void main(String[] args) {
 		System.out.println("Enter number of Students");
+		System.out.println("Hello , i am doing sample for git");
 		int studentCount = scan.nextInt();
 
 		Student[] students = new Student[studentCount];
