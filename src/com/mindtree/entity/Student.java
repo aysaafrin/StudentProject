@@ -5,17 +5,27 @@ public class Student {
 	private String name;
 	private String branch;
 	private int marks;
+	private String grade;
+
+	public String getGrade() {
+		return grade;
+	}
+
+	public void setGrade(String grade) {
+		this.grade = grade;
+	}
 
 	Student() {
 		super();
 	}
 
-	public Student(int id, String name, String branch, int marks) {
+	public Student(int id, String name, String branch, int marks,String grade) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.branch = branch;
 		this.marks = marks;
+		this.grade=grade;
 	}
 
 	public int getId() {

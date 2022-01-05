@@ -31,7 +31,10 @@ public class StudentApp {
 			String branch = scan.next();
 			System.out.println("Enter student marks");
 			int marks = scan.nextInt();
-			students[i] = new Student(id, name, branch, marks);
+			System.out.println("Enter student grade");
+			String grade = scan.next();
+			
+			students[i] = new Student(id, name, branch, marks,grade);
 		}
 
 	}
